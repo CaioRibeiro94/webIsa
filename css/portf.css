@@ -22,8 +22,8 @@
 :root {
     --bg-color: #E3E5EF;
     --second-bg-color-: #D6E0EA;
-    --third-bg-color: #011425;
-    --text-color: #000;
+    --third-bg-color: #000;
+    --text-color: #fafafa;
     --main-color: #269ca0;
 }
 
@@ -103,6 +103,7 @@ section {
 .home{
     display: flex;
     align-items: center;
+    background: var(--third-bg-color);
 }
 
 .home .home-content{
